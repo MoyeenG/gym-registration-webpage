@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/back_image.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Amiko', sans-serif;
+    color: white;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 30px auto;
+}
+
+.right {
+    position: absolute;
+    right: 30px;
+    top: 42px;
+}
+
+.left img {
+    width: 80px;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+
+.left div {
+    font-size: 95%;
+    font-weight: 550;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 2px;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.navbar li:hover {
+    color: rgb(36, 176, 164);
+    text-decoration: underline;
+    font-size: large;
+    font-weight: 550;
+    text-shadow: 3px 3px 7px rgb(175, 255, 184);
+}
+
+.right button {
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    margin: 0 5px;
+    border: 2px solid white;
+}
+
+.right button:hover {
+    width: 120px;
+    height: 48px;
+    font-size: large;
+    font-weight: 550;
+    text-shadow: 3px 3px 5px rgb(0, 233, 250);
+}
+
+
+.submit_details {
+    border: 2px solid white;
+    border-radius: 12px;
+    position: absolute;
+    top: 170px;
+    left: 120px;
+    width: 30%;
+}
+
+.submit_details form {
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.submit_details form p {
+    text-align: center;
+    font-size: 168%;
+    font-weight: 550;
+    margin: 0;
+}
+
+.submit_details input {
+    display: block;
+    width: 80%;
+    border: 0;
+    padding: 0;
+    margin: 12px auto;
+    border-radius: 15px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    border: 3px solid rgb(129, 129, 129);
+}
+
+#submit {
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 35px;
+}
+
+#submit:hover {
+    margin-top: 35px;
+    border: 5px outset rgb(155, 155, 155);
+    color: rgb(162, 199, 88);
+    font-size: 17px; 
+}
